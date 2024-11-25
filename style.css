@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins' sans-serif;
+}
+
+.profile-container{
+    width: 1100px;
+    box-shadow: 1px 0px 10px 1px #ccc;
+    margin-bottom: 50px;
+    padding: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.left-profile{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-right: 10px;
+    /* border: 1px solid red; */
+}
+
+.profile-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 3px;
+}
+
+.view-profile{
+    width: 100%;
+    padding: 10px 30px;
+    background-color: #3A6AD6;
+    color: white;
+    font-family: 'poppins' sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.buttons{
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    border-radius: 4px;
+    background-color: rgb(4, 219, 4);
+    color: white;
+    cursor: pointer;
+}
+
+.buttons.btn2,
+.buttons.btn4{
+    background-color: #3A6AD6;
+}
+
+.buttons.btn3{
+    background-color: grey;
+}
+
+.right-profile{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.profile-info ul{
+    width: 100%;
+    list-style: none;
+    padding-left: 0;
+}
+
+.profile-info ul li{
+    margin: 0;
+    padding: 18px 30px;
+    border: 1px solid #ccc;
+}
+
+li{
+    list-style: none;
+}
+
+/* a{
+    text-decoration: none;
+} */
+
+.Main-repo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 rem; */
+    border: 1px solid #ccc;
+
+}
+
+.repos-container{
+    margin-left: 20px;
+}
+
+.repo-list{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.repo-list li{
+    background-color: coral;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.repo-list li:nth-child(2){
+    /* color: white; */
+    background-color: #3A6AD6;
+}
+
+.repo-list li:nth-child(3){
+    background-color: rgb(11, 81, 81);
+}
+
